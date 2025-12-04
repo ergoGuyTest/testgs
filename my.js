@@ -28,7 +28,7 @@ function addGS(){
         },
         redirect: 'follow',
         //referrerPolicy: 'no-referrer',
-        body: JSON.stringify({first:"Michael",last:"Jordan",phone:"312-006-1998"})
+        body: JSON.stringify({first:"Michael",last:"Jordan",number:"312-006-1998"})
     });
 
 }
@@ -37,4 +37,5 @@ document.getElementById("btn2").addEventListener("click",addGS);
 
 
 document.getElementById("btn").addEventListener("click",testGS);
+
 
